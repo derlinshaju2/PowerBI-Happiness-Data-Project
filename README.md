@@ -63,11 +63,6 @@ The dashboard presents key metrics such as happiness score, happiness rank, econ
     Happiness-Data-PowerBI-Dashboard/
     │
     ├── Happiness_Data_Report.pbix
-    ├── Dataset/
-    │   └── happiness_data.csv
-    ├── Images/
-    │   ├── happiness-dashboard.png
-    │   └── key-findings.png
     └── README.md
 
 ## How to View the Dashboard
