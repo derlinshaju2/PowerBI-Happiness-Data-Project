@@ -1,26 +1,109 @@
-# Global Happiness Data Analysis Dashboard
+# Happiness Data Power BI Dashboard
 
-## 📖 Project Overview
+## Project Overview
 
-This project presents a comprehensive Power BI dashboard analyzing global happiness metrics. The objective was to visualize the relationship between socioeconomic indicators—such as **Economy** and **Family support**—and a nation's **Happiness Rank** and **Happiness Score** over time.
+The **Happiness Data Power BI Dashboard** is an interactive data-visualisation project developed using Microsoft Power BI. It analyses global happiness data across countries, regions, and years.
 
-## 🛠️ Data Preparation & Cleaning
+The dashboard presents key metrics such as happiness score, happiness rank, economy, and family contribution. It also helps identify regional performance, yearly trends, and the relationship between economic conditions and happiness rankings.
 
-The dataset was processed to ensure high analytical standards:
+## Dashboard Preview
 
-* **Data Structuring**: The data was organized into a "tidy" format, where each row represents a unique observation per country and year, ensuring compatibility for time-series and trend analysis.
-* **Data Integrity**: Validated all numerical fields to ensure correct formatting as decimals or integers, facilitating accurate DAX calculations.
-* **Analytical Strategy**: Utilized **Average** as the primary aggregation method for rank and score metrics. This approach maintains a consistent scale for comparisons across different regions and time periods, avoiding the distortions often associated with "Sum" aggregations.
+## Key Performance Indicators
 
-## 📊 Key Findings
+- **Average Happiness Score:** 5.38
+- **Average Happiness Rank:** 78.70
+- **Average Economy Value:** 0.92
+- **Average Family Value:** 1.08
 
-* **Economic Correlation**: The scatter plot reveals a clear negative correlation between economic stability and happiness rank; generally, as the "Average of Economy" increases, the "Average of Happiness Rank" decreases (indicating a higher, better position).
-* **Regional Performance**: The bar chart highlights that regions like Australia and New Zealand lead in average happiness scores.
-* **Driver Contribution**: The pie chart illustrates the proportional influence of "Average of Economy" and "Average of Family" on overall metrics.
-* **Trend Analysis**: The line and column charts provide a longitudinal view of how average happiness scores and ranks have evolved between 2015 and 2019.
+## Dashboard Features
 
-## 🚀 Tools & Techniques
+- Gauge chart displaying the average happiness rank
+- Gauge chart displaying the average happiness score
+- Regional comparison of average happiness scores
+- Yearly trend analysis of happiness rank
+- Yearly comparison of happiness scores
+- Scatter plot showing the relationship between economy and happiness rank
+- Donut chart comparing economy and family contribution
+- Country-level table showing economy and family values
+- Separate page containing key findings and analytical insights
 
-* **Tool**: Power BI Desktop
-* **Skills**: Data Cleaning, Tidy Data Structuring, DAX Aggregation, Trend Analysis, Scatter Plot Correlation, and Multi-visual Dashboard Design.
+## Key Findings
 
+- The overall average happiness score is approximately **5.38**.
+- The overall average happiness rank is approximately **78.70**.
+- **Australia and New Zealand** record the highest average happiness scores among the displayed regions.
+- **Southern Asia** has a comparatively lower average happiness score.
+- The scatter plot shows a negative relationship between economy and happiness rank.
+- As the economy value increases, the happiness rank generally decreases, indicating a better ranking.
+- The average family contribution of approximately **1.08** is higher than the average economy contribution of approximately **0.92**.
+- The average happiness rank improved around **2017** and remained relatively stable in the following years.
+
+## Business and Social Insights
+
+- Strong economic conditions are generally associated with better happiness rankings.
+- Family and social support appear to contribute significantly to overall happiness.
+- Regions with lower happiness scores may require greater attention to economic development and social-support programmes.
+- Yearly trend analysis can help identify changes in national and regional well-being.
+- Policymakers can use these insights to understand the factors influencing happiness across different regions.
+
+## Tools and Technologies Used
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel
+- Data Cleaning
+- Data Transformation
+- Data Modelling
+- Data Visualisation
+- Exploratory Data Analysis
+
+## Project Structure
+
+    Happiness-Data-PowerBI-Dashboard/
+    │
+    ├── Happiness_Data_Report.pbix
+    ├── Dataset/
+    │   └── happiness_data.csv
+    ├── Images/
+    │   ├── happiness-dashboard.png
+    │   └── key-findings.png
+    └── README.md
+
+## How to View the Dashboard
+
+1. Download the `Happiness_Data_Report.pbix` file from this repository.
+2. Install Microsoft Power BI Desktop.
+3. Open the downloaded `.pbix` file using Power BI Desktop.
+4. Explore the dashboard charts, tables, and key findings.
+
+## Skills Demonstrated
+
+- Data cleaning and preparation
+- Data transformation using Power Query
+- Data modelling
+- DAX calculations
+- KPI development
+- Dashboard design
+- Trend analysis
+- Correlation analysis
+- Business and social insight generation
+- Interactive data visualisation
+
+## Dataset
+
+The dataset contains global happiness information, including:
+
+- Country
+- Region
+- Year
+- Happiness Score
+- Happiness Rank
+- Economy
+- Family and Social Support
+
+## Author
+
+**Derlin Shaju**
+
+B.Tech Graduate in Artificial Intelligence and Data Science
